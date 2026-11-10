@@ -1,0 +1,50 @@
+# Raw sequencing data
+data/raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# Reference genomes and indexes
+data/reference/
+data/known_sites/
+*.fasta
+*.fa
+*.fai
+*.dict
+*.bwt
+*.pac
+*.ann
+*.amb
+*.sa
+
+# Alignment files
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# Variant files
+*.vcf
+*.vcf.gz
+*.tbi
+*.csi
+*.bcf
+
+# Generated results
+results/
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
