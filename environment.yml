@@ -1,0 +1,17 @@
+name: variant-calling
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.11
+  - openjdk=21
+  - bwa
+  - samtools
+  - fastqc
+  - fastp
+  - bcftools
+  - snpsift
+  - snpeff
+  - picard
